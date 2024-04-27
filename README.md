@@ -1,4 +1,4 @@
-# Projects
+# Projects (Build with Only HTML & CSS) 
 # Project 1 Output
 <img src="./Projects/Project 1/output.png" width=900 height=450>
 
