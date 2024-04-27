@@ -65,7 +65,7 @@ main section {
 .bottomangle{
     width: 25px;
     position: absolute;
-    right: 25px;
+    right: 1px;
 }
 
 .stethoscope{
