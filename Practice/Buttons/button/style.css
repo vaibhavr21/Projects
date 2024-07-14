@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(8, 8, 8);
+    padding: 5vw;
+}
+#main{
+    height: 700px;
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
