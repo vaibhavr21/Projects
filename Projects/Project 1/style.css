@@ -46,3 +46,35 @@ p{
     margin-top: 10px;
     margin-bottom: 20px;
 }
+button{
+    width: 150px;
+    height: 45px;
+    align-content: center;
+    font-size: 23px;
+    background-color: transparent;
+    border: 2px solid cyan;
+    color: cyan;
+    font-weight: 600;
+    transition: all linear 0.5s;
+    position: relative;
+    overflow: hidden;
+}
+button::after{
+    content: " ";
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: cyan;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    transition: all linear 0.5s;
+    z-index: -1;
+}
+button:hover::after{
+    transform: translate(-50%,-50%) scale(4);
+}
+button:hover{
+    color: black;
+}
