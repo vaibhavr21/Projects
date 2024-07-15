@@ -100,3 +100,16 @@ body,html{
     justify-content: space-between;
     padding-right: 120px;
 }
+.relem{
+    display: flex;
+}
+.relem i{
+    color: rgb(45, 184, 45);
+}
+.relemtext{
+    margin-left: 10px;
+}
+.relemtext h6{
+    opacity: .5;
+    font-weight: 500;
+}
