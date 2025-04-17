@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html, body{
+        height: 100vh;
+    }
+    .image {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+}
+
+.image > img {   
+    height: 100px;
+    width: 100px;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+</style>
+
+<body>
+    <div class="image">
+        <img src="./Assests/pic1.jpg" alt="">
+        <img src="./Assests/pic2.jpg" alt="">
+    </div>
+</body>
+
+</html>
