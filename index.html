@@ -40,6 +40,21 @@
         <img src="./Assests/pic1.jpg" alt="">
         <img src="./Assests/pic2.jpg" alt="">
     </div>
+    <script>
+        document.addEventListener("keydown", function (e) {
+          // F12
+          if (e.key === "F12") {
+            e.preventDefault();
+            return false;
+          }
+      
+          // Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U
+          if ((e.ctrlKey && e.shiftKey && (e.key === "I" || e.key === "J")) || 
+              (e.ctrlKey && e.key === "U")) {
+            e.preventDefault();
+            return false;
+          }
+        });
+      </script>
 </body>
-
 </html>
